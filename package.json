@@ -1,0 +1,24 @@
+{
+  "name": "ctrl-z-retro",
+  "version": "1.0.0",
+  "description": "CTRL+Z - Ретро-вещи для дома",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "retro",
+    "landing",
+    "html",
+    "css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-livereload": "^0.2.0"
+  }
+}
