@@ -11,15 +11,15 @@
 
     // Alternative images for crossfade (using existing images in rotation)
     const galleryImages = [
-        'http://localhost:3845/assets/e80c97e140f3d9cc2de9fc7d8172ba2660086f3c.png',
-        'http://localhost:3845/assets/99544b251da1dc5c1c4cd5091a6369784c3b3366.png',
-        'http://localhost:3845/assets/3d72752098439d00c93db7e05d05e6fa03cc3c0e.png',
-        'http://localhost:3845/assets/a8d64cc21df07681b2e434752ca4e72c1e5f1b50.png',
-        'http://localhost:3845/assets/66f2ae00c523b57add720123d18ac957cefd65a5.png',
-        'http://localhost:3845/assets/9532f812360b02673b349021a24f23d4184b4e15.png',
-        'http://localhost:3845/assets/6b7db8c494f946a8fffd305fbd1dafe75395cc6f.png',
-        'http://localhost:3845/assets/bca4fde18a21f11d6f66b044101eb4bd539db3ee.png',
-        'http://localhost:3845/assets/6956d5760728a88e5b5d5267f16c1864aa91057f.png'
+        'images/gallery-1.png',
+        'images/gallery-2.png',
+        'images/gallery-3.png',
+        'images/gallery-4.png',
+        'images/gallery-5.png',
+        'images/gallery-6.png',
+        'images/gallery-7.png',
+        'images/gallery-8.png',
+        'images/gallery-9.png'
     ];
 
     /**
