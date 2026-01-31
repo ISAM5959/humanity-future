@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150">
+  <rect fill="#F5F5F0" x="20" y="30" width="160" height="90" rx="10"/>
+  <rect fill="#E8E8E0" x="30" y="40" width="60" height="70" rx="5"/>
+  <line x1="40" y1="50" x2="80" y2="50" stroke="#CCC" stroke-width="2"/>
+  <line x1="40" y1="60" x2="80" y2="60" stroke="#CCC" stroke-width="2"/>
+  <line x1="40" y1="70" x2="80" y2="70" stroke="#CCC" stroke-width="2"/>
+  <line x1="40" y1="80" x2="80" y2="80" stroke="#CCC" stroke-width="2"/>
+  <line x1="40" y1="90" x2="80" y2="90" stroke="#CCC" stroke-width="2"/>
+  <circle fill="#FFF" stroke="#1B7B4E" stroke-width="3" cx="120" cy="60" r="20"/>
+  <circle fill="#FFF" stroke="#E85D3D" stroke-width="3" cx="160" cy="60" r="20"/>
+  <rect fill="#333" x="100" y="95" width="70" height="15" rx="3"/>
+  <text x="100" y="140" text-anchor="middle" fill="#666" font-family="Arial" font-size="10">radio-braun.png</text>
+</svg>
+
+

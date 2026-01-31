@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150">
+  <rect fill="#4A4A4A" x="30" y="40" width="140" height="70" rx="5"/>
+  <rect fill="#3A3A3A" x="40" y="50" width="80" height="50" rx="3"/>
+  <line x1="50" y1="60" x2="110" y2="60" stroke="#666" stroke-width="2"/>
+  <line x1="50" y1="70" x2="110" y2="70" stroke="#666" stroke-width="2"/>
+  <line x1="50" y1="80" x2="110" y2="80" stroke="#666" stroke-width="2"/>
+  <line x1="50" y1="90" x2="110" y2="90" stroke="#666" stroke-width="2"/>
+  <circle fill="#5A5A5A" stroke="#777" stroke-width="2" cx="145" cy="75" r="15"/>
+  <rect fill="#666" x="85" y="25" width="30" height="20" rx="10"/>
+  <text x="100" y="140" text-anchor="middle" fill="#666" font-family="Arial" font-size="10">radio-mini.png</text>
+</svg>
+
+
