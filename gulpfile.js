@@ -50,10 +50,27 @@ function copyImages() {
         .pipe(gulp.dest('dist/images'));
 }
 
-// Clean dist folder
-async function clean() {
-    const { deleteAsync } = await import('del');
-    return deleteAsync(['dist']);
+// Clean dist folder using Node fs
+function clean(done) {
+    const fs = require('fs');
+    const path = require('path');
+    
+    function deleteFolderRecursive(dirPath) {
+        if (fs.existsSync(dirPath)) {
+            fs.readdirSync(dirPath).forEach((file) => {
+                const curPath = path.join(dirPath, file);
+                if (fs.lstatSync(curPath).isDirectory()) {
+                    deleteFolderRecursive(curPath);
+                } else {
+                    fs.unlinkSync(curPath);
+                }
+            });
+            fs.rmdirSync(dirPath);
+        }
+    }
+    
+    deleteFolderRecursive('dist');
+    done();
 }
 
 // Default task
