@@ -1,12 +1,23 @@
 const gulp = require('gulp');
 const connect = require('gulp-connect');
 
+// Middleware to handle clean URLs (add .html extension)
+function cleanUrlMiddleware(req, res, next) {
+    if (req.url !== '/' && !req.url.includes('.') && !req.url.endsWith('/')) {
+        req.url += '.html';
+    }
+    next();
+}
+
 // Local server with live reload
 function server() {
     connect.server({
         root: './',
         port: 3000,
-        livereload: true
+        livereload: true,
+        middleware: function() {
+            return [cleanUrlMiddleware];
+        }
     });
 }
 
